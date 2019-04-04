@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.view.View;
 
 import com.appsee.Appsee;
-import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
@@ -32,7 +31,6 @@ public class AppseeReactPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
