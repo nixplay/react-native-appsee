@@ -33,6 +33,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.appsee:appsee-android:2.3'
-    compile 'com.facebook.react:react-native:0+'
+    implementation 'com.appsee:appsee-android:+'
+    implementation 'com.facebook.react:react-native:0+'
 }
